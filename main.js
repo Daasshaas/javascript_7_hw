@@ -23,7 +23,7 @@ const food = [
     'Jam', 
     'Meat',
 ];
-for (const i = 0; i < food.length; i+= 0) {
+for (const i = 0; i < food.length; i+= 1) {
 if (food[i].length > 5){
     console.log(food[i]);
     }
